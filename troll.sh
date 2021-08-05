@@ -6,8 +6,8 @@ while (true)
         M=$(date +%M)
         M=$((M+0))
         Y=$(( $H + $M ))
-        echo $Y отладка
-        echo $(( $Y % 12 )) отладка
+        #echo $Y отладка
+        #echo $(( $Y % 12 )) отладка
         if [ $(( $Y % 12 )) = 0 ];
             then
             `open -a safari https://youtu.be/dQw4w9WgXcQ?list=PLxb0XwjhqM_RLETkiO..`
@@ -25,7 +25,7 @@ while (true)
 ⠀⠀ ⠀⠀⠀⠀⠀⢸⣿⣿⣷⣶⣮⣭⣽⣿⣿⣿⣿⣿⣿⣿⠇
 ⠀⠀⠀⠀⠀⠀⣀⣀⣈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇
 ⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿"
-            echo $count отладка
+            #echo $count отладка
             count=$(( $count+1 ))
             if [ $count == 1 ];
             then
